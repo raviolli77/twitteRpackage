@@ -7,7 +7,7 @@
 # on apps.twitter.com which you need to activate to use twitteR
 
 # Next open Rstudio and install these packages; httpuv, twitteR, and ROAuth
-setwd("/home/rxe/myProjects/dataScience/twitterProject")
+setwd("/set/appropriate/working/directory")
 # Install necessary packages
 # install.packages("httpuv")
 # install.packages("twiiteR")
