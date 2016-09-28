@@ -66,6 +66,8 @@ searchTwitter("#prince + #purplerain") # Here I search when these two hashtags a
 dmSend('Pussy', user = "lo___9") # Here I called my roommate a pussy through a twiiter DM in R! 
 
 # Word cloud 
+# DISCLAIMER: I AM RUNNING INTO ISSUES WITH TOKENIZATION OF TWEETS WHICH I FEEL LIKE WOULD BE MORE EFFICIENT IN PYTHON
+# I RUN INTO ISSUES WHEN TRYING TO CREATE WORD CLOUDS WITH R
 purpRain <- searchTwitter("#prince + #purplerain", n = 1000, lang = "en") # RIP Prince
 purpText <- sapply(purpRain, function(x) x$getText())
 purpText
