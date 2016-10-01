@@ -24,6 +24,7 @@ require(wordcloud)
 require(tm)
 require(data.table)
 # Set up variables with your consumer key (API key), consumer secret (API Secret) both of which are located under the "Keys and Access Tokens" tab in apps.twitter.com
+# DON'T POST YOUR INFORMATION ON GITHUB CHANGE THE FOLLOWING SECTION TO SOMETHING ELSE, ANYTHING ELSE BUT YOUR ACTUAL API KEY
 consumer_key = "420bLA$iTTybG" # Consumer key provided by twitter 
 consumer_secret = "19SmVreP805cAIle13" # Conumer secret provided by twitter
 #  These links are accessible on apps.twitter.com in the "details" tab
