@@ -63,7 +63,7 @@ Rtweets(n=25) # If you want to find tweets related to R this funciton does it fo
 searchTwitter("#prince + #purplerain") # Here I search when these two hashtags are posted on the same tweet! They would have to make sense to be together (Prince wrote purple rain and since he dies recently more tweets will come out!)
 
 # Direct messaging and other cool stuff with twitteR!
-dmSend('Pussy', user = "lo___9") # Here I called my roommate a pussy through a twiiter DM in R! 
+dmSend('Chump', user = "lo___9") # Here I called my roommate a chump through a twiiter DM in R! 
 
 # Word cloud 
 # DISCLAIMER: I AM RUNNING INTO ISSUES WITH TOKENIZATION OF TWEETS WHICH I FEEL LIKE WOULD BE MORE EFFICIENT IN PYTHON
